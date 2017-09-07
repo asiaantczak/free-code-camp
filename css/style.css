@@ -1,0 +1,139 @@
+html {
+	box-sizing: border-box;
+ 	height: 100vh; 
+  overflow-x: hidden;
+ }
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-image: url(http://res.cloudinary.com/dazzj8vdr/image/upload/v1494193399/Random%20Quote%20Machine/background2-min.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	font-family: 'Chelsea Market', cursive;
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+  overflow-x: hidden;
+}
+
+h1 {
+	margin-top: 5.5rem;
+	text-align: center;
+	font-size: 1.6rem;
+	color: #152951;
+}
+
+@media screen and (min-width: 768px) { 	
+h1 {
+	margin-top: 6rem;
+	font-size: 2.3rem;
+	}
+}
+
+.buttons {
+	text-align: center;
+	margin: 1.5rem auto;
+	position: relative;
+	top: 6rem;
+}
+
+@media screen and (min-width: 768px) {
+	.buttons {
+	top: 8rem;
+	}
+}
+
+blockquote {
+	width: 80%;
+	height: 10rem;
+	margin: 2rem auto;
+	top: 2rem;
+	font-size: 1rem;
+	position: relative;
+	bottom: 4rem;
+	color: #002966;
+	font-weight: bold;
+	line-height: 1.4;
+	letter-spacing: 2px;
+}
+
+@media screen and (min-width: 768px) {
+	blockquote { 
+	width: 60%;
+	top: 1.5rem;
+	bottom: 4rem;
+	margin: 1rem auto;
+	font-size: 1.3rem;
+	padding-top: 1rem;
+	}
+}
+
+#quote,
+#author {
+	text-align: center;
+}
+
+#quotesButton, 
+#twitterButton{
+	border-radius: 28px;
+	font-family: 'Chelsea Market', cursive;
+	font-size: 0.6rem;
+	
+}
+
+@media screen and (min-width: 768px) {
+	#quotesButton, 
+	#twitterButton {
+	font-size: 0.9rem;
+	}
+}
+
+#quotesButton {
+	background-color: #FFA630;
+	border: 5px solid #FFA630;
+	padding: 0.5rem 1rem;
+	color: #152951;
+}
+
+#twitterButton {
+	text-decoration: none;
+	background-color: transparent;
+	border: 5px solid #FFA630;
+	padding: 0.5rem 1rem;
+	color: #FFA630;
+}
+
+#twitterButton .fa-twitter {
+	font-size: 0.6rem;
+	padding-left: 0.2rem;
+}
+
+@media screen and (min-width: 768px) {
+#twitterButton .fa-twitter {
+	font-size: 0.9rem;
+	}
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	background: rgba(21, 41, 81, 0.6);
+	font-size: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+	footer {
+		font-size: 1rem;
+	}
+
+.fa-github {
+	margin-left: 0.2rem;
+} 
+
